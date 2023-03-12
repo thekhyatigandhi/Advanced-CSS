@@ -18,7 +18,9 @@ body {
   padding: 10px;
   padding-left: 0px;
   background-color: var(--background-color-orange);
+  @media screen and (min-width 768px);
   position: relative;
+  z-index: -1px;
 }
 
 .header h1 {
@@ -35,6 +37,7 @@ body {
   float: right;
   font-size: 20px;
   position: relative;
+  z-index: -1px;
 }
 
 .header div ul {
@@ -43,14 +46,17 @@ body {
 
 .header div ul li {
   display: inline-block;
-  margin-left: 10px;
-  padding-right: 20px;
+  margin-left: 25px;
   color: var (--text-color);
 }
 
 a {
+  margin: 5px;
+  padding-bottom: 50px;
+  border-bottom-style: 50px;
   color: var(--text-color);
   text-decoration: underline;
+  text-underline-position: below;
   text-decoration-color: black;
 }
 
@@ -59,11 +65,17 @@ a:hover {
   cursor: grab;
 }
 
+p {
+  font-size: 16px;
+  color: var(--text-color);
+}
+
 .headerimage {
   background-image: url("./Assets/khyati-gandhi-hero.png");
   background-position: top;
   background-size: cover;
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   height: 150px;
 }
@@ -84,98 +96,72 @@ a:hover {
   font-weight: lighter;
 }
 
-.bottom-left {
-  position: absolute;
-  bottom: 20px;
-  left: 0px;
-  text-align: center;
-  padding: 7px;
-  display: inline-block;
-  background-color: var(--background-color-orange);
-  font-size: 20px;
-  font-weight: lighter;
+.float-right {
+  float: right;
+  margin-left: 25px;
 }
 
-.container-content {
-  margin: 25px auto;
-  display: flex;
-  align-items: flex-start;
-  width: 55%;
-  height: auto;
-}
-
-h2 {
-  margin-right: 20px;
+H2 {
+  color: var(--text-color);
   text-align: right;
 }
-
-p {
-  border-left: 2px solid black;
-  padding-left: 2rem;
+.column-about-me {
+  float: left;
+  padding: 10px;
+  height: 150px;
 }
 
-.gallery {
-  border-left: 2px solid black;
-  display: flex;
-  justify-content: center;
+.left {
+  width: 25%;
+}
+
+.right {
+  margin-top: 10px;
+  display: inline;
+  padding-right: 35px;
+  width: 75%;
   flex-wrap: wrap;
-  max-width: 100%;
-  margin: 5px;
-  padding-left: 2rem;
-  height: 455px;
+  text-align: justify;
 }
 
-.parent {
-  position: relative;
-  top: 0;
-  left: 0;
-  transition: transform 0.2s;
+.column-work {
+  float: left;
+  padding: 10px;
+  height: fit-content;
 }
 
-.parent:hover {
-  cursor: grab;
-  transform: scale3d(1.2s);
-}
-.image {
-  position: relative;
-  top: 0;
-  left: 0;
-  border: 3px solid #ed6a5a;
+.left {
+  width: 25%;
 }
 
-.image1 {
+.right {
+  margin-top: 10px;
+  display: inline;
+  padding-right: 35px;
+  width: 75%;
+  flex-wrap: wrap;
+}
+
+.workimage1 {
+  background-image: url("https://image-placeholder.com/images/actual-size/640x200.png");
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vl {
+  border-left: 2px solid black;
+  height: 200px;
   position: absolute;
-  top: 220px;
-  left: 0;
-  border: 3px solid #ed6a5a;
-}
-.image2 {
-  position: absolute;
-  top: 220px;
-  left: 338px;
-  border: 3px solid #ed6a5a;
+  left: 26%;
+  margin-top: 45px;
+  margin-left: -3px;
 }
 
-.image3 {
-  position: absolute;
-  top: 340px;
-  left: 0px;
-  border: 3px solid #ed6a5a;
-}
-.image4 {
-  position: absolute;
-  top: 340px;
-  left: 338px;
-  border: 3px solid #ed6a5a;
-}
-
-@media screen and (max-width: 992px) {
-  .card .gallery {
-    width: 50%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .card .gallery {
-    width: 100%;
-  }
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-size: 20px;
 }
