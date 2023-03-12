@@ -84,10 +84,58 @@ a:hover {
   font-weight: lighter;
 }
 
-.bottom-left {
+#bottom-left {
   position: absolute;
   bottom: 20px;
   left: 0px;
+  text-align: center;
+  padding: 7px;
+  display: inline-block;
+  background-color: var(--background-color-orange);
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#bottom-left1 {
+  position: absolute;
+  top: 15px;
+  left: 0px;
+  text-align: center;
+  padding: 7px;
+  display: inline-block;
+  background-color: var(--background-color-orange);
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#bottom-left2 {
+  position: absolute;
+  bottom: -28px;
+  left: 339px;
+  text-align: center;
+  padding: 7px;
+  display: inline-block;
+  background-color: var(--background-color-orange);
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#bottom-left3 {
+  position: absolute;
+  bottom: -123px;
+  left: 0px;
+  text-align: center;
+  padding: 7px;
+  display: inline-block;
+  background-color: var(--background-color-orange);
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#bottom-left4 {
+  position: absolute;
+  bottom: -98px;
+  left: 339px;
   text-align: center;
   padding: 7px;
   display: inline-block;
@@ -133,14 +181,25 @@ p {
 }
 
 .parent:hover {
-  cursor: grab;
-  transform: scale3d(1.2s);
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
 }
 .image {
   position: relative;
   top: 0;
   left: 0;
   border: 3px solid #ed6a5a;
+  transition: 0.5s ease;
+}
+
+.image:hover {
+  opacity: 0.3;
+  transition: 0.5s ease;
+  box-shadow: #ed6a5a 10px 10px 5px;
+  transform: scale(1);
 }
 
 .image1 {
@@ -149,11 +208,23 @@ p {
   left: 0;
   border: 3px solid #ed6a5a;
 }
+.image1:hover {
+  opacity: 0.3;
+  transition: 0.5s ease;
+  box-shadow: #ed6a5a 10px 10px 5px;
+  transform: scale(1);
+}
 .image2 {
   position: absolute;
   top: 220px;
   left: 338px;
   border: 3px solid #ed6a5a;
+}
+.image2:hover {
+  opacity: 0.3;
+  transition: 0.5s ease;
+  box-shadow: #ed6a5a 10px 10px 5px;
+  transform: scale(1);
 }
 
 .image3 {
@@ -162,20 +233,21 @@ p {
   left: 0px;
   border: 3px solid #ed6a5a;
 }
+.image3:hover {
+  opacity: 0.3;
+  transition: 0.5s ease;
+  box-shadow: #ed6a5a 10px 10px 5px;
+  transform: scale(1);
+}
 .image4 {
   position: absolute;
   top: 340px;
   left: 338px;
   border: 3px solid #ed6a5a;
 }
-
-@media screen and (max-width: 992px) {
-  .card .gallery {
-    width: 50%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .card .gallery {
-    width: 100%;
-  }
+.image4:hover {
+  opacity: 0.3;
+  transition: 0.5s ease;
+  box-shadow: #ed6a5a 10px 10px 5px;
+  transform: scale(1);
 }
