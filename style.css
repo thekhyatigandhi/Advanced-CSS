@@ -83,16 +83,6 @@ a:hover {
   color: black;
 }
 
-@media screen and (max-width: 480px) {
-  .container {
-    width: 200px;
-    float: center;
-  }
-}
-
-.container:hover {
-  cursor: grabbing;
-}
 .bottom-right {
   position: absolute;
   bottom: 20px;
@@ -174,17 +164,18 @@ a:hover {
 h2 {
   margin-right: 20px;
   text-align: right;
+  font-size: 25px;
 }
 
 p {
-  border-left: 2px solid black;
+  border-left: 3px solid black;
   padding-left: 2rem;
   text-align: justify;
   line-height: 20px;
 }
 
 .gallery {
-  border-left: 2px solid black;
+  border-left: 3px solid black;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -275,15 +266,9 @@ p {
 .footer {
   display: flex;
   width: 100%;
-  height: fit-content;
-  text-align: center;
-  border-left: 2px solid black;
-  line-height: 20px;
-}
-
-h3 {
-  margin-right: 20px;
-  text-align: right;
+  height: max-content;
+  border-left: 3px solid black;
+  line-height: 50px;
 }
 
 .footer div ul {
