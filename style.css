@@ -55,7 +55,7 @@ a {
 }
 
 a:hover {
-  color: #f4f1bb;
+  color: blueviolet;
   cursor: grab;
 }
 
@@ -74,6 +74,9 @@ a:hover {
   color: black;
 }
 
+.container:hover {
+  cursor: grabbing;
+}
 .bottom-right {
   position: absolute;
   bottom: 20px;
@@ -199,7 +202,7 @@ p {
   opacity: 0.3;
   transition: 0.5s ease;
   box-shadow: #ed6a5a 10px 10px 5px;
-  transform: scale(1);
+  transform: scale(1.1);
 }
 
 .image1 {
@@ -212,7 +215,7 @@ p {
   opacity: 0.3;
   transition: 0.5s ease;
   box-shadow: #ed6a5a 10px 10px 5px;
-  transform: scale(1);
+  transform: scale(1.1);
 }
 .image2 {
   position: absolute;
@@ -224,7 +227,7 @@ p {
   opacity: 0.3;
   transition: 0.5s ease;
   box-shadow: #ed6a5a 10px 10px 5px;
-  transform: scale(1);
+  transform: scale(1.1);
 }
 
 .image3 {
@@ -237,7 +240,7 @@ p {
   opacity: 0.3;
   transition: 0.5s ease;
   box-shadow: #ed6a5a 10px 10px 5px;
-  transform: scale(1);
+  transform: scale(1.1);
 }
 .image4 {
   position: absolute;
@@ -249,7 +252,7 @@ p {
   opacity: 0.3;
   transition: 0.5s ease;
   box-shadow: #ed6a5a 10px 10px 5px;
-  transform: scale(1);
+  transform: scale(1.1);
 }
 .footer {
   padding: 3px;
