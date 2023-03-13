@@ -251,3 +251,38 @@ p {
   box-shadow: #ed6a5a 10px 10px 5px;
   transform: scale(1);
 }
+.footer {
+  padding: 3px;
+  color: black;
+  position: relative;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer div {
+  float: left;
+  font-size: 20px;
+  position: relative;
+}
+
+.footer div ul {
+  list-style-type: none;
+}
+
+.footer div ul li {
+  display: inline-block;
+  margin-left: 30px;
+  padding-right: 35px;
+  color: var (--text-color);
+  height: fit-content;
+}
+h3 {
+  margin-left: -73px;
+  padding: 5px;
+  text-align: right;
+  border-right: 2px solid black;
+  padding-right: 2rem;
+  display: block;
+  position: relative;
+}
