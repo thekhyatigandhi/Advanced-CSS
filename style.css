@@ -48,6 +48,13 @@ body {
   color: var (--text-color);
 }
 
+@media screen and (max-width: 480px) {
+  .header {
+    width: 200px;
+    float: center;
+  }
+}
+
 a {
   color: var(--text-color);
   text-decoration: underline;
@@ -68,10 +75,24 @@ a:hover {
   height: 150px;
 }
 
+@media screen and (max-width: 480px) {
+  .headerimage {
+    width: 200px;
+    float: center;
+  }
+}
+
 .container {
   position: relative;
   text-align: center;
   color: black;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 200px;
+    float: center;
+  }
 }
 
 .container:hover {
@@ -83,7 +104,7 @@ a:hover {
   right: 30px;
   padding: 10px 5px 5px 10px;
   background-color: var(--background-color-orange);
-  font-size: 30px;
+  font-size: 20px;
   font-weight: lighter;
 }
 
@@ -163,6 +184,8 @@ h2 {
 p {
   border-left: 2px solid black;
   padding-left: 2rem;
+  text-align: justify;
+  line-height: 20px;
 }
 
 .gallery {
@@ -258,7 +281,6 @@ p {
   padding: 3px;
   color: black;
   position: relative;
-  text-align: left;
   display: flex;
   flex-wrap: wrap;
 }
@@ -279,7 +301,7 @@ p {
   color: var (--text-color);
 }
 h3 {
-  margin-left: -43px;
+  margin-left: -49px;
   text-align: right;
   border-right: 2px solid black;
   padding-right: 2rem;
