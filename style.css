@@ -211,7 +211,7 @@ p {
   opacity: 0.3;
   transition: 0.5s ease;
   box-shadow: #ed6a5a 10px 10px 5px;
-  transform: scale(1.1);
+  transform: scale(1.01);
 }
 
 .image1 {
@@ -224,7 +224,7 @@ p {
   opacity: 0.3;
   transition: 0.5s ease;
   box-shadow: #ed6a5a 10px 10px 5px;
-  transform: scale(1.1);
+  transform: scale(1.01);
 }
 .image2 {
   position: absolute;
@@ -236,7 +236,7 @@ p {
   opacity: 0.3;
   transition: 0.5s ease;
   box-shadow: #ed6a5a 10px 10px 5px;
-  transform: scale(1.1);
+  transform: scale(1.01);
 }
 
 .image3 {
@@ -249,7 +249,7 @@ p {
   opacity: 0.3;
   transition: 0.5s ease;
   box-shadow: #ed6a5a 10px 10px 5px;
-  transform: scale(1.1);
+  transform: scale(1.01);
 }
 .image4 {
   position: absolute;
@@ -261,7 +261,7 @@ p {
   opacity: 0.3;
   transition: 0.5s ease;
   box-shadow: #ed6a5a 10px 10px 5px;
-  transform: scale(1.1);
+  transform: scale(1.01);
 }
 .footer {
   display: flex;
