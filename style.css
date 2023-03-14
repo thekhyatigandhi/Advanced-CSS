@@ -33,6 +33,17 @@ body {
   background-color: #f4f1bb;
 }
 
+@media only screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header h1 {
+    margin-bottom: 10px;
+  }
+}
+
 .header div {
   float: right;
   font-size: 20px;
@@ -54,6 +65,28 @@ body {
   text-decoration-color: black;
 }
 
+@media only screen and (max-width: 768px) {
+  .header div {
+    float: none;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+    padding: 5px;
+    background-color: var(--background-color-orange);
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+  }
+  .header div ul li {
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 1px solid var(--text-color);
+  }
+}
+
 a {
   color: var(--text-color);
 }
@@ -61,7 +94,7 @@ a {
 a:hover {
   color: blueviolet;
   cursor: grab;
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .headerimage {
@@ -73,10 +106,9 @@ a:hover {
   height: 150px;
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .headerimage {
-    width: 200px;
-    float: center;
+    height: 75px;
   }
 }
 
@@ -96,6 +128,15 @@ a:hover {
   font-weight: lighter;
 }
 
+@media only screen and (max-width: 768px) {
+  .bottom-right {
+    bottom: 10px;
+    right: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+}
+
 #bottom-left {
   position: absolute;
   bottom: 20px;
@@ -104,20 +145,22 @@ a:hover {
   padding: 7px;
   display: inline-block;
   background-color: var(--background-color-orange);
-  font-size: 20px;
+  font-size: 15px;
   font-weight: lighter;
+  line-height: 20px;
 }
 
 #bottom-left1 {
   position: absolute;
-  top: 15px;
+  top: 0px;
   left: 0px;
   text-align: center;
   padding: 7px;
   display: inline-block;
   background-color: var(--background-color-orange);
-  font-size: 20px;
+  font-size: 15px;
   font-weight: lighter;
+  line-height: 20px;
 }
 
 #bottom-left2 {
@@ -128,8 +171,9 @@ a:hover {
   padding: 7px;
   display: inline-block;
   background-color: var(--background-color-orange);
-  font-size: 20px;
+  font-size: 15px;
   font-weight: lighter;
+  line-height: 20px;
 }
 
 #bottom-left3 {
@@ -140,8 +184,9 @@ a:hover {
   padding: 7px;
   display: inline-block;
   background-color: var(--background-color-orange);
-  font-size: 20px;
+  font-size: 15px;
   font-weight: lighter;
+  line-height: 20px;
 }
 
 #bottom-left4 {
@@ -152,8 +197,22 @@ a:hover {
   padding: 7px;
   display: inline-block;
   background-color: var(--background-color-orange);
-  font-size: 20px;
+  font-size: 15px;
   font-weight: lighter;
+  line-height: 20px;
+}
+
+@media (max-width: 768px) {
+  #bottom-left,
+  #bottom-left1,
+  #bottom-left2,
+  #bottom-left3,
+  #bottom-left4 {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    margin: 10px 0;
+  }
 }
 
 .container-content {
@@ -175,6 +234,20 @@ p {
   padding-left: 2rem;
   text-align: justify;
   line-height: 20px;
+}
+@media screen and (max-width: 768px) {
+  h2 {
+    margin-right: 0px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  p {
+    border-left: none;
+    padding-left: 0;
+    text-align: center;
+    line-height: 25px;
+  }
 }
 
 .gallery {
@@ -202,65 +275,65 @@ p {
   height: auto;
   transition: 0.5s ease;
 }
-.image {
+.html-css-image {
   position: relative;
   top: 0;
   left: 0;
   border: 3px solid #ed6a5a;
   transition: 0.5s ease;
 }
-
-.image:hover {
+.html-css-image:hover {
   opacity: 0.3;
   transition: 0.5s ease;
   box-shadow: #ed6a5a 10px 10px 5px;
   transform: scale(1.01);
 }
 
-.image1 {
+.advanced-css {
   position: absolute;
   top: 220px;
   left: 0;
   border: 3px solid #ed6a5a;
 }
-.image1:hover {
-  opacity: 0.3;
-  transition: 0.5s ease;
-  box-shadow: #ed6a5a 10px 10px 5px;
-  transform: scale(1.01);
-}
-.image2 {
-  position: absolute;
-  top: 220px;
-  left: 338px;
-  border: 3px solid #ed6a5a;
-}
-.image2:hover {
+.advanced-css:hover {
   opacity: 0.3;
   transition: 0.5s ease;
   box-shadow: #ed6a5a 10px 10px 5px;
   transform: scale(1.01);
 }
 
-.image3 {
+.pre-work {
   position: absolute;
-  top: 340px;
-  left: 0px;
+  top: 220px;
+  left: 338px;
   border: 3px solid #ed6a5a;
 }
-.image3:hover {
+.pre-work:hover {
   opacity: 0.3;
   transition: 0.5s ease;
   box-shadow: #ed6a5a 10px 10px 5px;
   transform: scale(1.01);
 }
-.image4 {
+
+.javascript {
+  position: absolute;
+  top: 340px;
+  left: 0px;
+  border: 3px solid #ed6a5a;
+}
+.javascript:hover {
+  opacity: 0.3;
+  transition: 0.5s ease;
+  box-shadow: #ed6a5a 10px 10px 5px;
+  transform: scale(1.01);
+}
+.google {
   position: absolute;
   top: 340px;
   left: 338px;
   border: 3px solid #ed6a5a;
 }
-.image4:hover {
+.google:hover {
   opacity: 0.3;
   transition: 0.5s ease;
   box-shadow: #ed6a5a 10px 10px 5px;
