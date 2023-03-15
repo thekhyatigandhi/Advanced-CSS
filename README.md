@@ -28,6 +28,8 @@ https://www.w3schools.com/ - I used this website to understand concepts and try 
 
 https://coolors.co/ - I used this website to select the color palette for the website.
 
+https://www.canva.com/ - I used this website to make the header image and the photos in the work section.
+
 I also got some help from my fellow classmates.
 
 ## License

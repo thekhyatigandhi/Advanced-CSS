@@ -279,6 +279,16 @@ p {
   transition: 0.5s ease;
   opacity: 0.7;
 }
+
+@media screen and (max-width: 600px) {
+  .gallery {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 .html-css-image:hover {
   opacity: 1;
   transition: 0.5s ease;
