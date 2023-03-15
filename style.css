@@ -128,7 +128,7 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
   .bottom-right {
-    bottom: 10px;
+    bottom: 100px;
     right: 10px;
     padding: 5px;
     font-size: 16px;
@@ -200,16 +200,13 @@ a:hover {
   line-height: 20px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   #bottom-left,
   #bottom-left1,
   #bottom-left2,
   #bottom-left3,
   #bottom-left4 {
-    position: relative;
-    bottom: auto;
-    left: auto;
-    margin: 10px 0;
+    display: none;
   }
 }
 
@@ -240,16 +237,22 @@ p {
 }
 @media screen and (max-width: 768px) {
   h2 {
-    margin-right: 0px;
+    position: relative;
+    top: 20px;
+    left: 40%;
+    align-items: center;
     text-align: center;
     font-size: 20px;
   }
 
   p {
+    position: relative;
+    top: 80px;
+    padding-bottom: 50px;
     border-left: none;
     padding-left: 0;
-    text-align: center;
-    line-height: 25px;
+    text-align: justify;
+    line-height: 20px;
   }
 }
 
@@ -278,15 +281,6 @@ p {
   border: 3px solid #ed6a5a;
   transition: 0.5s ease;
   opacity: 0.7;
-}
-
-@media screen and (max-width: 600px) {
-  .gallery {
-    height: auto;
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-  }
 }
 
 .html-css-image:hover {
@@ -350,6 +344,74 @@ p {
   box-shadow: #9c9393 10px 10px 5px;
   transform: scale(1.01);
 }
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    border-left: none;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .parent {
+    position: relative;
+    top: 0;
+    left: -29px;
+    transition: transform 0.2s;
+  }
+
+  .html-css-image {
+    position: relative;
+    top: 50px;
+    right: 30px;
+    width: 100%;
+    height: auto;
+    order: 1;
+    flex-direction: column;
+  }
+  .advanced-css {
+    position: relative;
+    top: 10px;
+    right: 30px;
+    width: 100%;
+    height: auto;
+    order: 2;
+    flex-direction: column;
+  }
+
+  .pre-work {
+    position: relative;
+    top: -30px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    order: 3;
+    flex-direction: column;
+  }
+
+  .javascript {
+    position: relative;
+    top: -67px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    order: 4;
+    flex-direction: column;
+  }
+
+  .google {
+    position: relative;
+    top: -105px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    order: 5;
+    flex-direction: column;
+  }
+}
+
 .footer {
   display: flex;
   width: 100%;
@@ -385,10 +447,11 @@ p {
 }
 @media only screen and (max-width: 768px) {
   .footer {
+    position: relative;
+    top: -145px;
+    left: 115px;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
     border-left: none;
     padding-left: 0;
     right: 0;
@@ -396,15 +459,19 @@ p {
 
   .footer div ul li {
     display: block;
-    margin: 10px 0;
+    margin: 40px 0;
     padding: 8px;
     text-align: center;
     text-decoration: none;
-    border-bottom: 2px solid black;
+    line-height: 0px;
   }
 
   #contact {
+    position: relative;
+    top: -185px;
+    left: -60px;
     margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     order: 1;
     width: 100%;
