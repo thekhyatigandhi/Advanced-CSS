@@ -6,14 +6,20 @@ This is the website to a portfolio for Ms. Khyati Gandhi. She is an aspiring ful
 This webiste showcases her latest projects.
 The link to the deployed page - https://thekhyatigandhi.github.io/Advanced-CSS/
 
-- [Installation](#installation)
+- [WEBSITE](#WEBSITE)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 
-## Installation
+## WEBSITE
 
-N/A
+The following animation shows the web application's appearance and functionality:
+
+![portfolio demo](./Assets/Web-version.gif)
+
+The following animation shows the web application's with media queries and the appearance and functionality:
+
+![portfolio demo](./Assets/With-Media-Queries.gif)
 
 ## Usage
 
