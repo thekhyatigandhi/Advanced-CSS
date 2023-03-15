@@ -6,9 +6,6 @@ This is the website to a portfolio for Ms. Khyati Gandhi. She is an aspiring ful
 This webiste showcases her latest projects.
 The link to the deployed page - https://thekhyatigandhi.github.io/Advanced-CSS/
 
-<img width="1432" alt="Screenshot 2023-03-13 at 12 36 42 PM" src="https://user-images.githubusercontent.com/125392517/224767319-99c063a4-e1c3-4fbe-afb6-cb8779082625.png">
-<img width="1435" alt="Screenshot 2023-03-13 at 12 36 52 PM" src="https://user-images.githubusercontent.com/125392517/224768799-fecefede-6e7d-4a1c-8ac8-26ab6d6c0580.png">
-
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
