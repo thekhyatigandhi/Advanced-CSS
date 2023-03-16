@@ -19,7 +19,7 @@ The following animation shows the web application's appearance and functionality
 
 The following animation shows the web application's with media queries and the appearance and functionality:
 
-![portfolio demo](./Assets/With-Media-Queries.gif)
+![portfolio demo](./Assets/With-Media-Queries%20.gif)
 
 ## Usage
 
